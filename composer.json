@@ -1,0 +1,31 @@
+{
+    "name": "magemastery/module-toto",
+    "description": "Todo module created for a training purposes",
+    "authors": [
+        {
+            "name": "Michal Sagan",
+            "homepage": "https://github.com/michal-sagan"
+        }
+    ],
+    "type": "magento2-module",
+    "config": {
+        "sort-packages": true
+    },
+    "version": "0.1.0",
+    "require": {
+        "magento/framework": "103.0.*",
+        "php": "~8.1.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magemastery\\Todo\\": ""
+        }
+    }
+}
+
