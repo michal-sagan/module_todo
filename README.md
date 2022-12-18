@@ -5,3 +5,6 @@
 
 ## LESSON 2
 - Adding configuration dependencies
+
+## LESSON 3
+- Adding new menu link to the customer account navigation panel
