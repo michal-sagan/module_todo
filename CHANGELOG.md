@@ -4,3 +4,7 @@
 - README file for project / module description
 - Basic magento module files (registration.php, module.xml, composer.json)
 
+[0.2.0] - 2022-10-01 Module sequences added
+### Added
+- Moduel_Checkout as dependency
+- Moduel_Ui as dependency
